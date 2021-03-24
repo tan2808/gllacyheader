@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8"/>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="stylecssh.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="format-detection" content="telephone=no">
@@ -11,7 +11,7 @@
 <body>
 <header class="header">
     <div class="container">
-    <div class="header-top">
+    <div class="header_top">
         <a class="logo" href="/">
             <img class="logo__img" src="images/logo.svg" alt="logo">
         </a>
@@ -45,39 +45,109 @@
                 </li>
             </ul>
         </nav>
-        </div>
-        <div class="header__inner">
             <div class="search">
-                <button class="search__btn"><img class="search_btn-img" src="images/search.png">
+                <button class="header__btn"><img class="search_btn-img" src="images/search.png">
+                </button>
                     <form action="search" class="search__form">
                         <input class="search__form-input input" type="search" placeholder="Что ищем?">
                     </form>
-                </button>
             </div>
             <div class="enter">
-                <button class="enter__btn"><img class="enter_btn-img" src="images/enter1.png">Вход
+                <button class="header__btn"><img class="enter_btn-img" src="images/enter1.png">Вход
                     </button>
                     <form action="enter" class="enter__form">
                         <input class="login__form-input input" type="text" name="login" placeholder="Электронная почта"><br>
                         <input class="password__form-input input" type="password" placeholder="Пароль"><br>
-                        <input type="submit" value="Войти">
-                    </form>
+                        <input class="btn" type="submit" value="Войти">
                 <a class="header__link" href="#">Забыли пароль?</a><br>
                 <a class="header__link" href="#">Новая регистрация</a><br>
+                    </form>
             </div>
             <div class="basket">
-                <button class="search__btn"><img class="search_btn-img" src="images/basket.png">
-                    <input type="submit" value="Пусто">
+                <button class="header__btn"><img class="search_btn-img" src="images/basket.png">Пусто
                 </button>
             </div>
         </div>
-            <div class="header-bottom">
+            <div class="header_bottom">
                 <div class="header-info">
                 <p class="time">С 10 до 20, ежедневно<br>
                 8 812 450-25-25</p>
                 </div>
             </div>
-        </div>
+    </div>
 </header>
+<footer class="footer">
+    <div class="container">
+    <div class="page_footer">
+        <div class="footer_social">
+            <a class="social-twitter"  href="#" target="_blank" rel="noopener">
+            <img src="images/twitter.png">
+            </a>
+            <a class="social-instagram" href="#" target="_blank" rel="noopener">
+            <img src="images/insta.png">
+            </a>
+            <a class="social-facebook" href="#" target="_blank" rel="noopener">
+            <img src="images/facebook.png">
+            </a>
+            <a class="social-vk" href="#" target="_blank" rel="noopener">
+            <img src="images/vk.png">
+            </a>
+        </div>
+        <div class="footer_documents">
+            <ul class="footer__documents">
+                <li><a href="#" class="bold__href">Для поставщиков</a></li>
+                <li><a href="#">О производстве</a></li>
+                <li><a href="#">Наши документы</a></li>
+                <li><a href="#">Экологические стандарты</a></li>
+            </ul>
+        </div>
+        <div class="footer_copyright">
+            <a href="#" class="logo__href">
+                <img src="images/logo-htmlacademy-small.png" width="108" height="39" alt="Логотип магазина 'Глейси'">
+            </a>
+            <p>Сделано в <a class="copyright" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> &copy; 2021</p>
+        </div>
+    </div>
+    </div>
+</footer>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
