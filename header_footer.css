@@ -76,27 +76,11 @@ svg {
 .nav__item:not(:last-child) {
     margin-right: 8px;
 }
-.nav__item:hover {
-    border-radius: 20px;
-    color: #323232;
-    background-color: white;
-    height: 30px;
-}
-.nav__link {
-    font-weight: 400;
-    font-size: 16px;
-    color: #ffff;
-    text-decoration: underline;
-}
-.nav__sub-list:hover {
-    border-radius: 10px;
-    color: #323232;
-    background-color: white;
-    display: block;
-}
-.nav__sub-list {
-    display: none;
 
+.a:hover .ul {
+    width: 40px;
+    border-radius: 10px;
+    background-color: #ffffff;
 }
 .header__btn:hover {
     width: 40px;
